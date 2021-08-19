@@ -15,7 +15,7 @@ CheXpert is a large dataset of chest X-rays and competition, which consists of 2
 
 Train DenseNet121 with AUCM Loss on CheXpert 
 ---------
-Please follow this tutoroial [Notebook](https://github.com/yzhuoning/LibAUC/blob/main/examples/05_Optimizing_AUROC_Loss_with_DenseNet121_on_CheXpert.ipynb). The dataloader can be downloaded [here](https://github.com/Optimization-AI/ICCV2021_DeepAUC/blob/main/chexpert.py)
+Please follow this tutorial [Notebook](https://github.com/yzhuoning/LibAUC/blob/main/examples/05_Optimizing_AUROC_Loss_with_DenseNet121_on_CheXpert.ipynb). The dataloader can be downloaded [here](https://github.com/Optimization-AI/ICCV2021_DeepAUC/blob/main/chexpert.py)
 
 Example 
 ---------
