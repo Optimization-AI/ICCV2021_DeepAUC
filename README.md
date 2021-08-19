@@ -30,7 +30,7 @@ testloader =  torch.utils.data.DataLoader(testSet, batch_size=32, num_workers=2,
 
 Citation
 ---------
-If you find this repo helpful in your work, please cite the following paper:
+If you find this repo helpful, please cite the following paper:
 ```
 @inproceedings{yuan2021robust,
 	title={Large-scale Robust Deep AUC Maximization: A New Surrogate Loss and Empirical Studies on Medical Image Classification},
