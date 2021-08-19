@@ -2,7 +2,7 @@
 
 This is the official implementation of the paper "**Robust Deep AUC Maximization: A New Surrogate Loss and Empirical Studies on Medical Image Classification**" published on **ICCV2021**. 
 
-Requirement
+Requirements
 ---------
 `
 pip install libauc
