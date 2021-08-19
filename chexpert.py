@@ -9,9 +9,12 @@ import pandas as pd
 class CheXpert(Dataset):
     '''
     Reference: 
-        Robust deep auc maximization: A new surrogate loss and empirical studies on medical image classification
-        Zhuoning Yuan, Yan Yan, Milan Sonka, Tianbao Yang
-        International Conference on Computer Vision (ICCV 2021)
+        @inproceedings{yuan2021robust,
+            title={Large-scale Robust Deep AUC Maximization: A New Surrogate Loss and Empirical Studies on Medical Image Classification},
+            author={Yuan, Zhuoning and Yan, Yan and Sonka, Milan and Yang, Tianbao},
+            booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+            year={2021}
+            }
     '''
     def __init__(self, 
                  csv_path, 
