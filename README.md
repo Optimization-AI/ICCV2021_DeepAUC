@@ -10,12 +10,7 @@ pip install libauc
 
 CheXpert
 ---------
-CheXpert is a large dataset of chest X-rays and competition, which consists of 224,316 chest radiographs of 65,240 patients.The details about the dataset can be found at https://stanfordmlgroup.github.io/competitions/chexpert/.
-
-
-Train DenseNet121 with AUCM Loss on CheXpert 
----------
-Please follow this tutorial [Notebook](https://github.com/yzhuoning/LibAUC/blob/main/examples/05_Optimizing_AUROC_Loss_with_DenseNet121_on_CheXpert.ipynb). The dataloader can be downloaded [here](https://github.com/Optimization-AI/ICCV2021_DeepAUC/blob/main/chexpert.py)
+CheXpert is a large dataset of chest X-rays and competition, which consists of 224,316 chest radiographs of 65,240 patients.The details about the dataset can be found at https://stanfordmlgroup.github.io/competitions/chexpert/. The dataloader used in the paper can be downloaded [here](https://github.com/Optimization-AI/ICCV2021_DeepAUC/blob/main/chexpert.py).
 
 Example 
 ---------
@@ -27,6 +22,11 @@ testSet =  CheXpert(csv_path=root+'valid.csv',  image_root_path=root, use_fronta
 trainloader =  torch.utils.data.DataLoader(traindSet, batch_size=32, num_workers=2, shuffle=True)
 testloader =  torch.utils.data.DataLoader(testSet, batch_size=32, num_workers=2, shuffle=False)
 ```
+
+Train DenseNet121 with AUCM Loss on CheXpert 
+---------
+Please follow this tutorial [Notebook](https://github.com/yzhuoning/LibAUC/blob/main/examples/05_Optimizing_AUROC_Loss_with_DenseNet121_on_CheXpert.ipynb) to train the models. 
+
 
 Citation
 ---------
