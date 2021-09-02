@@ -35,7 +35,7 @@ trainloader = torch.utils.data.DataLoader(ImageDataset(train_images, train_label
 testloader = torch.utils.data.DataLoader( ImageDataset(test_images, test_labels, mode='test'), batch_size=BATCH_SIZE, shuffle=False, num_workers=1,  pin_memory=True)
 ```
 
-For more details, please refer to [this tutorial](https://github.com/yzhuoning/LibAUC/blob/main/examples/02_Optimizing_AUROC_with_ResNet20_on_Imbalanced_CIFAR10.ipynb). 
+For more details, please refer to this [Notebook](https://github.com/yzhuoning/LibAUC/blob/main/examples/02_Optimizing_AUROC_with_ResNet20_on_Imbalanced_CIFAR10.ipynb). 
 
 
 CheXpert
@@ -54,7 +54,7 @@ testloader =  torch.utils.data.DataLoader(testSet, batch_size=32, num_workers=2,
 ```
 
 ### Train DenseNet121 with AUCM Loss on CheXpert 
-Please follow this tutorial [Notebook](https://github.com/yzhuoning/LibAUC/blob/main/examples/05_Optimizing_AUROC_Loss_with_DenseNet121_on_CheXpert.ipynb) to train the models. 
+Please follow this [Notebook](https://github.com/yzhuoning/LibAUC/blob/main/examples/05_Optimizing_AUROC_Loss_with_DenseNet121_on_CheXpert.ipynb) to train the models. 
 
 
 Citation
