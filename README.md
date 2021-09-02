@@ -16,7 +16,7 @@ Benchmark dataset contains [Cat&Dog](https://www.kaggle.com/c/dogs-vs-cats), [CI
 
 #### Importing LibAUC & Loading Datasets
 ```python
-from libauc.datasets import CIFAR10
+from libauc.datasets import CIFAR10, CIFAR100, CAT_vs_DOG, STL10
 (train_data, train_label), (test_data, test_label) = CIFAR10()
 ```
 
