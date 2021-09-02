@@ -8,10 +8,9 @@ Requirements
 pip install libauc
 ```
 
-Benchmarks
+Benchmark Datasets
 ---------
-Benchmark datasets contain Cat&Dog, CIFAR10, CIFAR100, STL10, which can be accessed by our library. 
-
+Benchmark dataset contains [Cat&Dog](https://www.kaggle.com/c/dogs-vs-cats), [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html), [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html), [STL10](https://cs.stanford.edu/~acoates/stl10/). To construct their imbalanced version, we show an example below: 
 
 ### Example
 
