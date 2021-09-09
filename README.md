@@ -67,3 +67,7 @@ If you find this repo helpful, please cite the following paper:
 	year={2021}
 	}
 ```
+
+Contact
+----------
+If you have any questions, please contact us @ [Zhuoning Yuan](https://homepage.divms.uiowa.edu/~zhuoning/) [yzhuoning@gmail.com] or please open a new issue in the Github.
