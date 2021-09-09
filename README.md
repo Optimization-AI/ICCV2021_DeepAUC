@@ -53,7 +53,7 @@ trainloader =  torch.utils.data.DataLoader(traindSet, batch_size=32, num_workers
 testloader =  torch.utils.data.DataLoader(testSet, batch_size=32, num_workers=2, shuffle=False)
 ```
 
-For the instructions of training the models, please refer to this [Notebook](https://github.com/yzhuoning/LibAUC/blob/main/examples/05_Optimizing_AUROC_Loss_with_DenseNet121_on_CheXpert.ipynb).
+For the instructions of training the models, please refer to this [Notebook](https://github.com/Optimization-AI/LibAUC/blob/main/examples/05_Optimizing_AUROC_Loss_with_DenseNet121_on_CheXpert.ipynb).
 
 
 Citation
