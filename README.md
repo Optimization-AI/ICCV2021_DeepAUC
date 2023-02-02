@@ -70,4 +70,4 @@ If you find this repo helpful, please cite the following paper:
 
 Contact
 ----------
-If you have any questions, please contact us @ [Zhuoning Yuan](https://homepage.divms.uiowa.edu/~zhuoning/) [yzhuoning@gmail.com] and [Tianbao Yang](https://homepage.cs.uiowa.edu/~tyng/) [tianbao-yang@uiowa.edu] or please open a new issue in the Github. 
+If you have any questions, please contact us @ [Zhuoning Yuan](https://homepage.divms.uiowa.edu/~zhuoning/) [yzhuoning@gmail.com] and [Tianbao Yang](http://people.tamu.edu/~tianbao-yang/) [tianbao-yang@tamu.edu] or please open a new issue in the Github. 
